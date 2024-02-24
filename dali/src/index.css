@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .App {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  Navbar {
+    border-bottom: 2px solid #333;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .Card {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .Card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  Card.Title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  Card.Text {
+    color: #555;
+  }
+  
